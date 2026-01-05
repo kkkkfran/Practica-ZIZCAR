@@ -6,6 +6,7 @@
           <v-toolbar color="primary" dark flat>
             <v-toolbar-title>Iniciar Sesión</v-toolbar-title>
           </v-toolbar>
+
           <v-card-text>
             <v-form @submit.prevent="handleLogin">
               <v-text-field
@@ -15,6 +16,7 @@
                 type="email"
                 required
               ></v-text-field>
+
               <v-text-field
                 v-model="password"
                 label="Password"
@@ -23,13 +25,21 @@
                 required
               ></v-text-field>
             </v-form>
+
             <v-alert v-if="error" type="error" dense class="mt-3">
               {{ error }}
             </v-alert>
           </v-card-text>
+
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn color="primary" @click="handleLogin" :loading="loading">Entrar</v-btn>
+            <v-btn
+              color="primary"
+              @click="handleLogin"
+              :loading="loading"
+            >
+              Entrar
+            </v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
@@ -40,43 +50,25 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
-// CAMBIO: Importamos nuestra instancia configurada en lugar de axios directo
-import api from '../services/api'; 
+import { useAuthStore } from '../stores/auth';
 
-const email = ref('admin@test.com'); 
+const authStore = useAuthStore();
+const router = useRouter();
+
+const email = ref('admin@test.com');
 const password = ref('123456');
 const loading = ref(false);
 const error = ref('');
-const router = useRouter();
 
 const handleLogin = async () => {
   loading.value = true;
   error.value = '';
-  
+
   try {
-    // CAMBIO: Usamos 'api.post' y la ruta relativa
-    const response = await api.post('/auth/login', {
-      email: email.value,
-      password: password.value
-    });
-
-    console.log("LOGIN EXITOSO:", response.data);
-    
-    // Guardamos el token y el email
-    localStorage.setItem('token', response.data.access_token);
-    localStorage.setItem('user_email', response.data.user.email);
-    
-    // Redirigimos al panel
+    await authStore.login(email.value, password.value);
     router.push('/records');
-
-  } catch (e: any) {
-    console.error(e);
-    // Mensaje de error amigable
-    if (e.response && e.response.status === 401) {
-       error.value = 'Usuario o contraseña incorrectos';
-    } else {
-       error.value = 'Error de conexión con el servidor';
-    }
+  } catch (e) {
+    error.value = 'Credenciales incorrectas';
   } finally {
     loading.value = false;
   }

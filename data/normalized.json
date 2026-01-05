@@ -1,0 +1,2252 @@
+[
+  {
+    "id": 1,
+    "sourceId": "INV-2025-001",
+    "date": "2025-10-11",
+    "category": "Servicios",
+    "amount": "1666.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 2,
+    "sourceId": "INV-2025-002",
+    "date": "2025-01-03",
+    "category": "Inventario",
+    "amount": "680.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 3,
+    "sourceId": "INV-2025-003",
+    "date": "2025-07-24",
+    "category": "Gastos",
+    "amount": "1974.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 4,
+    "sourceId": "INV-2025-004",
+    "date": "2025-09-09",
+    "category": "Servicios",
+    "amount": "339.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 5,
+    "sourceId": "INV-2025-005",
+    "date": "2025-03-21",
+    "category": "Gastos",
+    "amount": "4542.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 6,
+    "sourceId": "INV-2025-006",
+    "date": "2025-04-13",
+    "category": "Inventario",
+    "amount": "4287.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 7,
+    "sourceId": "INV-2025-007",
+    "date": "2025-10-19",
+    "category": "Inventario",
+    "amount": "422.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 8,
+    "sourceId": "INV-2025-008",
+    "date": "2025-11-24",
+    "category": "Ventas",
+    "amount": "1928.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 9,
+    "sourceId": "INV-2025-009",
+    "date": "2025-08-10",
+    "category": "Servicios",
+    "amount": "3033.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 10,
+    "sourceId": "INV-2025-010",
+    "date": "2025-01-21",
+    "category": "Ventas",
+    "amount": "4533.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 11,
+    "sourceId": "INV-2025-011",
+    "date": "2025-07-30",
+    "category": "Ventas",
+    "amount": "489.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 12,
+    "sourceId": "INV-2025-012",
+    "date": "2025-07-24",
+    "category": "Servicios",
+    "amount": "693.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 13,
+    "sourceId": "INV-2025-013",
+    "date": "2025-04-03",
+    "category": "Servicios",
+    "amount": "2196.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 14,
+    "sourceId": "INV-2025-014",
+    "date": "2025-09-13",
+    "category": "Inventario",
+    "amount": "1297.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 15,
+    "sourceId": "INV-2025-015",
+    "date": "2025-02-21",
+    "category": "Servicios",
+    "amount": "1438.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 16,
+    "sourceId": "INV-2025-016",
+    "date": "2025-07-23",
+    "category": "Servicios",
+    "amount": "1489.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 17,
+    "sourceId": "INV-2025-017",
+    "date": "2025-01-05",
+    "category": "Gastos",
+    "amount": "2831.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 18,
+    "sourceId": "INV-2025-018",
+    "date": "2025-02-16",
+    "category": "Inventario",
+    "amount": "1243.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 19,
+    "sourceId": "INV-2025-019",
+    "date": "2025-05-01",
+    "category": "Inventario",
+    "amount": "591.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 20,
+    "sourceId": "INV-2025-020",
+    "date": "2025-05-25",
+    "category": "Servicios",
+    "amount": "377.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 21,
+    "sourceId": "INV-2025-021",
+    "date": "2025-07-13",
+    "category": "Servicios",
+    "amount": "4333.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 22,
+    "sourceId": "INV-2025-022",
+    "date": "2025-09-06",
+    "category": "Gastos",
+    "amount": "1694.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 23,
+    "sourceId": "INV-2025-023",
+    "date": "2025-03-24",
+    "category": "Ventas",
+    "amount": "2147.00",
+    "status": "cancelado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 24,
+    "sourceId": "INV-2025-024",
+    "date": "2025-05-15",
+    "category": "Ventas",
+    "amount": "3669.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 25,
+    "sourceId": "INV-2025-025",
+    "date": "2025-11-28",
+    "category": "Inventario",
+    "amount": "4002.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 26,
+    "sourceId": "INV-2025-026",
+    "date": "2025-02-16",
+    "category": "Inventario",
+    "amount": "2665.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 27,
+    "sourceId": "INV-2025-027",
+    "date": "2025-10-10",
+    "category": "Inventario",
+    "amount": "4571.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 28,
+    "sourceId": "INV-2025-028",
+    "date": "2025-08-16",
+    "category": "Gastos",
+    "amount": "2053.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 29,
+    "sourceId": "INV-2025-029",
+    "date": "2025-06-28",
+    "category": "Servicios",
+    "amount": "1951.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 30,
+    "sourceId": "INV-2025-030",
+    "date": "2025-09-14",
+    "category": "Inventario",
+    "amount": "2953.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 31,
+    "sourceId": "INV-2025-031",
+    "date": "2025-09-10",
+    "category": "Inventario",
+    "amount": "3782.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 32,
+    "sourceId": "INV-2025-032",
+    "date": "2025-01-29",
+    "category": "Inventario",
+    "amount": "1396.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 33,
+    "sourceId": "INV-2025-033",
+    "date": "2025-03-05",
+    "category": "Servicios",
+    "amount": "1295.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 34,
+    "sourceId": "INV-2025-034",
+    "date": "2025-06-14",
+    "category": "Gastos",
+    "amount": "3604.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 35,
+    "sourceId": "INV-2025-035",
+    "date": "2025-08-14",
+    "category": "Gastos",
+    "amount": "4939.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 36,
+    "sourceId": "INV-2025-036",
+    "date": "2025-10-22",
+    "category": "Ventas",
+    "amount": "1824.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 37,
+    "sourceId": "INV-2025-037",
+    "date": "2025-09-01",
+    "category": "Inventario",
+    "amount": "1760.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 38,
+    "sourceId": "INV-2025-038",
+    "date": "2025-07-28",
+    "category": "Inventario",
+    "amount": "412.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 39,
+    "sourceId": "INV-2025-039",
+    "date": "2025-11-17",
+    "category": "Gastos",
+    "amount": "3264.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 40,
+    "sourceId": "INV-2025-040",
+    "date": "2025-07-24",
+    "category": "Gastos",
+    "amount": "3309.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 41,
+    "sourceId": "INV-2025-041",
+    "date": "2025-03-05",
+    "category": "Inventario",
+    "amount": "3253.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 42,
+    "sourceId": "INV-2025-042",
+    "date": "2025-10-17",
+    "category": "Inventario",
+    "amount": "1767.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 43,
+    "sourceId": "INV-2025-043",
+    "date": "2025-08-09",
+    "category": "Inventario",
+    "amount": "851.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 44,
+    "sourceId": "INV-2025-044",
+    "date": "2025-05-11",
+    "category": "Servicios",
+    "amount": "2389.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 45,
+    "sourceId": "INV-2025-045",
+    "date": "2025-03-08",
+    "category": "Inventario",
+    "amount": "1939.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 46,
+    "sourceId": "INV-2025-046",
+    "date": "2025-10-09",
+    "category": "Servicios",
+    "amount": "3137.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 47,
+    "sourceId": "INV-2025-047",
+    "date": "2025-11-12",
+    "category": "Gastos",
+    "amount": "2512.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 48,
+    "sourceId": "INV-2025-048",
+    "date": "2025-03-08",
+    "category": "Inventario",
+    "amount": "3309.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 49,
+    "sourceId": "INV-2025-049",
+    "date": "2025-03-11",
+    "category": "Gastos",
+    "amount": "266.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 50,
+    "sourceId": "INV-2025-050",
+    "date": "2025-06-27",
+    "category": "Inventario",
+    "amount": "3859.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 51,
+    "sourceId": "INV-2025-051",
+    "date": "2025-01-21",
+    "category": "Gastos",
+    "amount": "1181.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 52,
+    "sourceId": "INV-2025-052",
+    "date": "2025-07-05",
+    "category": "Gastos",
+    "amount": "3269.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 53,
+    "sourceId": "INV-2025-053",
+    "date": "2025-01-04",
+    "category": "Servicios",
+    "amount": "724.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 54,
+    "sourceId": "INV-2025-054",
+    "date": "2025-10-02",
+    "category": "Inventario",
+    "amount": "2800.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 55,
+    "sourceId": "INV-2025-055",
+    "date": "2025-01-27",
+    "category": "Ventas",
+    "amount": "1329.00",
+    "status": "cancelado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 56,
+    "sourceId": "INV-2025-056",
+    "date": "2025-07-07",
+    "category": "Gastos",
+    "amount": "2680.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 57,
+    "sourceId": "INV-2025-057",
+    "date": "2025-03-22",
+    "category": "Inventario",
+    "amount": "4795.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 58,
+    "sourceId": "INV-2025-058",
+    "date": "2025-11-28",
+    "category": "Inventario",
+    "amount": "3845.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 59,
+    "sourceId": "INV-2025-059",
+    "date": "2025-03-20",
+    "category": "Ventas",
+    "amount": "2862.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 60,
+    "sourceId": "INV-2025-060",
+    "date": "2025-01-16",
+    "category": "Servicios",
+    "amount": "4738.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 61,
+    "sourceId": "INV-2025-061",
+    "date": "2025-04-12",
+    "category": "Ventas",
+    "amount": "1030.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 62,
+    "sourceId": "INV-2025-062",
+    "date": "2025-11-10",
+    "category": "Gastos",
+    "amount": "4890.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 63,
+    "sourceId": "INV-2025-063",
+    "date": "2025-06-20",
+    "category": "Gastos",
+    "amount": "615.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 64,
+    "sourceId": "INV-2025-064",
+    "date": "2025-05-15",
+    "category": "Ventas",
+    "amount": "2603.00",
+    "status": "cancelado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 65,
+    "sourceId": "INV-2025-065",
+    "date": "2025-01-28",
+    "category": "Ventas",
+    "amount": "3254.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 66,
+    "sourceId": "INV-2025-066",
+    "date": "2025-08-08",
+    "category": "Inventario",
+    "amount": "3386.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 67,
+    "sourceId": "INV-2025-067",
+    "date": "2025-06-18",
+    "category": "Ventas",
+    "amount": "1286.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 68,
+    "sourceId": "INV-2025-068",
+    "date": "2025-10-10",
+    "category": "Ventas",
+    "amount": "1345.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 69,
+    "sourceId": "INV-2025-069",
+    "date": "2025-05-10",
+    "category": "Gastos",
+    "amount": "1184.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 70,
+    "sourceId": "INV-2025-070",
+    "date": "2025-05-16",
+    "category": "Ventas",
+    "amount": "895.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 71,
+    "sourceId": "INV-2025-071",
+    "date": "2025-03-27",
+    "category": "Gastos",
+    "amount": "1982.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 72,
+    "sourceId": "INV-2025-072",
+    "date": "2025-06-04",
+    "category": "Servicios",
+    "amount": "168.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 73,
+    "sourceId": "INV-2025-073",
+    "date": "2025-11-12",
+    "category": "Gastos",
+    "amount": "4762.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 74,
+    "sourceId": "INV-2025-074",
+    "date": "2025-11-28",
+    "category": "Gastos",
+    "amount": "1447.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 75,
+    "sourceId": "INV-2025-075",
+    "date": "2025-01-03",
+    "category": "Ventas",
+    "amount": "1034.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 76,
+    "sourceId": "INV-2025-076",
+    "date": "2025-11-06",
+    "category": "Servicios",
+    "amount": "4498.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 77,
+    "sourceId": "INV-2025-077",
+    "date": "2025-04-18",
+    "category": "Servicios",
+    "amount": "4955.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 78,
+    "sourceId": "INV-2025-078",
+    "date": "2025-05-27",
+    "category": "Ventas",
+    "amount": "2505.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 79,
+    "sourceId": "INV-2025-079",
+    "date": "2025-10-19",
+    "category": "Gastos",
+    "amount": "1647.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 80,
+    "sourceId": "INV-2025-080",
+    "date": "2025-10-26",
+    "category": "Inventario",
+    "amount": "1000.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 81,
+    "sourceId": "INV-2025-081",
+    "date": "2025-05-02",
+    "category": "Servicios",
+    "amount": "1278.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 82,
+    "sourceId": "INV-2025-082",
+    "date": "2025-06-21",
+    "category": "Ventas",
+    "amount": "1193.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 83,
+    "sourceId": "INV-2025-083",
+    "date": "2025-07-18",
+    "category": "Ventas",
+    "amount": "2595.00",
+    "status": "cancelado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 84,
+    "sourceId": "INV-2025-084",
+    "date": "2025-05-21",
+    "category": "Servicios",
+    "amount": "2905.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 85,
+    "sourceId": "INV-2025-085",
+    "date": "2025-06-02",
+    "category": "Servicios",
+    "amount": "2092.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 86,
+    "sourceId": "INV-2025-086",
+    "date": "2025-01-02",
+    "category": "Gastos",
+    "amount": "4007.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 87,
+    "sourceId": "INV-2025-087",
+    "date": "2025-07-23",
+    "category": "Servicios",
+    "amount": "3159.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 88,
+    "sourceId": "INV-2025-088",
+    "date": "2025-06-03",
+    "category": "Inventario",
+    "amount": "738.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 89,
+    "sourceId": "INV-2025-089",
+    "date": "2025-08-09",
+    "category": "Servicios",
+    "amount": "3832.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 90,
+    "sourceId": "INV-2025-090",
+    "date": "2025-06-03",
+    "category": "Gastos",
+    "amount": "4632.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 91,
+    "sourceId": "INV-2025-091",
+    "date": "2025-09-23",
+    "category": "Ventas",
+    "amount": "1478.00",
+    "status": "cancelado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 92,
+    "sourceId": "INV-2025-092",
+    "date": "2025-04-02",
+    "category": "Servicios",
+    "amount": "4263.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 93,
+    "sourceId": "INV-2025-093",
+    "date": "2025-04-29",
+    "category": "Ventas",
+    "amount": "352.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 94,
+    "sourceId": "INV-2025-094",
+    "date": "2025-06-10",
+    "category": "Ventas",
+    "amount": "1716.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 95,
+    "sourceId": "INV-2025-095",
+    "date": "2025-11-22",
+    "category": "Gastos",
+    "amount": "757.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 96,
+    "sourceId": "INV-2025-096",
+    "date": "2025-09-30",
+    "category": "Inventario",
+    "amount": "4441.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 97,
+    "sourceId": "INV-2025-097",
+    "date": "2025-10-15",
+    "category": "Gastos",
+    "amount": "4568.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 98,
+    "sourceId": "INV-2025-098",
+    "date": "2025-04-29",
+    "category": "Gastos",
+    "amount": "984.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 99,
+    "sourceId": "INV-2025-099",
+    "date": "2025-04-26",
+    "category": "Ventas",
+    "amount": "4370.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 100,
+    "sourceId": "INV-2025-100",
+    "date": "2025-09-13",
+    "category": "Ventas",
+    "amount": "367.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 101,
+    "sourceId": "INV-2025-101",
+    "date": "2025-07-19",
+    "category": "Ventas",
+    "amount": "2567.00",
+    "status": "cancelado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 102,
+    "sourceId": "INV-2025-102",
+    "date": "2025-07-30",
+    "category": "Gastos",
+    "amount": "2885.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 103,
+    "sourceId": "INV-2025-103",
+    "date": "2025-02-19",
+    "category": "Inventario",
+    "amount": "3068.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 104,
+    "sourceId": "INV-2025-104",
+    "date": "2025-02-11",
+    "category": "Gastos",
+    "amount": "3465.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 105,
+    "sourceId": "INV-2025-105",
+    "date": "2025-11-08",
+    "category": "Ventas",
+    "amount": "1440.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 106,
+    "sourceId": "INV-2025-106",
+    "date": "2025-05-09",
+    "category": "Ventas",
+    "amount": "3020.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 107,
+    "sourceId": "INV-2025-107",
+    "date": "2025-02-06",
+    "category": "Servicios",
+    "amount": "3974.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 108,
+    "sourceId": "INV-2025-108",
+    "date": "2025-09-25",
+    "category": "Ventas",
+    "amount": "2158.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 109,
+    "sourceId": "INV-2025-109",
+    "date": "2025-04-16",
+    "category": "Gastos",
+    "amount": "319.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 110,
+    "sourceId": "INV-2025-110",
+    "date": "2025-09-10",
+    "category": "Servicios",
+    "amount": "2082.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 111,
+    "sourceId": "INV-2025-111",
+    "date": "2025-01-03",
+    "category": "Inventario",
+    "amount": "4498.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 112,
+    "sourceId": "INV-2025-112",
+    "date": "2025-08-09",
+    "category": "Ventas",
+    "amount": "3396.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 113,
+    "sourceId": "INV-2025-113",
+    "date": "2025-10-06",
+    "category": "Ventas",
+    "amount": "292.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 114,
+    "sourceId": "INV-2025-114",
+    "date": "2025-02-04",
+    "category": "Ventas",
+    "amount": "4641.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 115,
+    "sourceId": "INV-2025-115",
+    "date": "2025-01-15",
+    "category": "Servicios",
+    "amount": "2213.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 116,
+    "sourceId": "INV-2025-116",
+    "date": "2025-09-07",
+    "category": "Inventario",
+    "amount": "1413.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 117,
+    "sourceId": "INV-2025-117",
+    "date": "2025-09-08",
+    "category": "Inventario",
+    "amount": "854.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 118,
+    "sourceId": "INV-2025-118",
+    "date": "2025-10-03",
+    "category": "Inventario",
+    "amount": "3548.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 119,
+    "sourceId": "INV-2025-119",
+    "date": "2025-05-07",
+    "category": "Inventario",
+    "amount": "3529.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 120,
+    "sourceId": "INV-2025-120",
+    "date": "2025-03-17",
+    "category": "Gastos",
+    "amount": "2462.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 121,
+    "sourceId": "INV-2025-121",
+    "date": "2025-07-30",
+    "category": "Gastos",
+    "amount": "2044.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 122,
+    "sourceId": "INV-2025-122",
+    "date": "2025-10-31",
+    "category": "Inventario",
+    "amount": "4384.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 123,
+    "sourceId": "INV-2025-123",
+    "date": "2025-10-19",
+    "category": "Ventas",
+    "amount": "2913.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 124,
+    "sourceId": "INV-2025-124",
+    "date": "2025-05-18",
+    "category": "Gastos",
+    "amount": "3404.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 125,
+    "sourceId": "INV-2025-125",
+    "date": "2025-10-09",
+    "category": "Servicios",
+    "amount": "2886.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 126,
+    "sourceId": "INV-2025-126",
+    "date": "2025-01-24",
+    "category": "Ventas",
+    "amount": "1164.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 127,
+    "sourceId": "INV-2025-127",
+    "date": "2025-01-28",
+    "category": "Ventas",
+    "amount": "2086.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 128,
+    "sourceId": "INV-2025-128",
+    "date": "2025-07-01",
+    "category": "Servicios",
+    "amount": "2090.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 129,
+    "sourceId": "INV-2025-129",
+    "date": "2025-08-29",
+    "category": "Inventario",
+    "amount": "4185.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 130,
+    "sourceId": "INV-2025-130",
+    "date": "2025-04-25",
+    "category": "Inventario",
+    "amount": "3914.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 131,
+    "sourceId": "INV-2025-131",
+    "date": "2025-08-29",
+    "category": "Ventas",
+    "amount": "4828.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 132,
+    "sourceId": "INV-2025-132",
+    "date": "2025-04-07",
+    "category": "Servicios",
+    "amount": "2202.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 133,
+    "sourceId": "INV-2025-133",
+    "date": "2025-06-23",
+    "category": "Ventas",
+    "amount": "2968.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 134,
+    "sourceId": "INV-2025-134",
+    "date": "2025-04-18",
+    "category": "Servicios",
+    "amount": "1751.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 135,
+    "sourceId": "INV-2025-135",
+    "date": "2025-07-09",
+    "category": "Ventas",
+    "amount": "4495.00",
+    "status": "cancelado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 136,
+    "sourceId": "INV-2025-136",
+    "date": "2025-11-17",
+    "category": "Gastos",
+    "amount": "2707.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 137,
+    "sourceId": "INV-2025-137",
+    "date": "2025-04-26",
+    "category": "Servicios",
+    "amount": "403.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 138,
+    "sourceId": "INV-2025-138",
+    "date": "2025-09-13",
+    "category": "Inventario",
+    "amount": "2033.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 139,
+    "sourceId": "INV-2025-139",
+    "date": "2025-10-28",
+    "category": "Servicios",
+    "amount": "3263.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 140,
+    "sourceId": "INV-2025-140",
+    "date": "2025-01-09",
+    "category": "Gastos",
+    "amount": "2829.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 141,
+    "sourceId": "INV-2025-141",
+    "date": "2025-08-12",
+    "category": "Servicios",
+    "amount": "4565.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 142,
+    "sourceId": "INV-2025-142",
+    "date": "2025-04-05",
+    "category": "Servicios",
+    "amount": "4476.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 143,
+    "sourceId": "INV-2025-143",
+    "date": "2025-09-24",
+    "category": "Servicios",
+    "amount": "107.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 144,
+    "sourceId": "INV-2025-144",
+    "date": "2025-08-28",
+    "category": "Servicios",
+    "amount": "2412.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 145,
+    "sourceId": "INV-2025-145",
+    "date": "2025-07-26",
+    "category": "Inventario",
+    "amount": "1584.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 146,
+    "sourceId": "INV-2025-146",
+    "date": "2025-01-29",
+    "category": "Gastos",
+    "amount": "1084.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 147,
+    "sourceId": "INV-2025-147",
+    "date": "2025-07-01",
+    "category": "Ventas",
+    "amount": "2313.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 148,
+    "sourceId": "INV-2025-148",
+    "date": "2025-09-02",
+    "category": "Gastos",
+    "amount": "4057.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 149,
+    "sourceId": "INV-2025-149",
+    "date": "2025-08-07",
+    "category": "Ventas",
+    "amount": "2880.00",
+    "status": "cancelado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 150,
+    "sourceId": "INV-2025-150",
+    "date": "2025-08-15",
+    "category": "Ventas",
+    "amount": "1509.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 151,
+    "sourceId": "INV-2025-151",
+    "date": "2025-02-23",
+    "category": "Servicios",
+    "amount": "134.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 152,
+    "sourceId": "INV-2025-152",
+    "date": "2025-07-11",
+    "category": "Inventario",
+    "amount": "4370.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 153,
+    "sourceId": "INV-2025-153",
+    "date": "2025-08-18",
+    "category": "Inventario",
+    "amount": "2578.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 154,
+    "sourceId": "INV-2025-154",
+    "date": "2025-05-01",
+    "category": "Gastos",
+    "amount": "4723.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 155,
+    "sourceId": "INV-2025-155",
+    "date": "2025-07-13",
+    "category": "Servicios",
+    "amount": "4469.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 156,
+    "sourceId": "INV-2025-156",
+    "date": "2025-02-25",
+    "category": "Ventas",
+    "amount": "2218.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 157,
+    "sourceId": "INV-2025-157",
+    "date": "2025-01-01",
+    "category": "Ventas",
+    "amount": "1106.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 158,
+    "sourceId": "INV-2025-158",
+    "date": "2025-06-27",
+    "category": "Gastos",
+    "amount": "1828.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 159,
+    "sourceId": "INV-2025-159",
+    "date": "2025-02-23",
+    "category": "Ventas",
+    "amount": "1293.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 160,
+    "sourceId": "INV-2025-160",
+    "date": "2025-07-02",
+    "category": "Gastos",
+    "amount": "2714.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 161,
+    "sourceId": "INV-2025-161",
+    "date": "2025-09-23",
+    "category": "Servicios",
+    "amount": "3540.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 162,
+    "sourceId": "INV-2025-162",
+    "date": "2025-04-04",
+    "category": "Servicios",
+    "amount": "3082.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 163,
+    "sourceId": "INV-2025-163",
+    "date": "2025-10-17",
+    "category": "Ventas",
+    "amount": "3261.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 164,
+    "sourceId": "INV-2025-164",
+    "date": "2025-08-27",
+    "category": "Gastos",
+    "amount": "4015.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 165,
+    "sourceId": "INV-2025-165",
+    "date": "2025-04-10",
+    "category": "Gastos",
+    "amount": "3836.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 166,
+    "sourceId": "INV-2025-166",
+    "date": "2025-09-09",
+    "category": "Inventario",
+    "amount": "1917.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 167,
+    "sourceId": "INV-2025-167",
+    "date": "2025-08-21",
+    "category": "Gastos",
+    "amount": "1689.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 168,
+    "sourceId": "INV-2025-168",
+    "date": "2025-07-22",
+    "category": "Servicios",
+    "amount": "4650.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 169,
+    "sourceId": "INV-2025-169",
+    "date": "2025-11-21",
+    "category": "Inventario",
+    "amount": "1213.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 170,
+    "sourceId": "INV-2025-170",
+    "date": "2025-08-15",
+    "category": "Inventario",
+    "amount": "1706.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 171,
+    "sourceId": "INV-2025-171",
+    "date": "2025-11-18",
+    "category": "Ventas",
+    "amount": "3216.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 172,
+    "sourceId": "INV-2025-172",
+    "date": "2025-11-15",
+    "category": "Inventario",
+    "amount": "1609.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 173,
+    "sourceId": "INV-2025-173",
+    "date": "2025-11-11",
+    "category": "Gastos",
+    "amount": "3920.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 174,
+    "sourceId": "INV-2025-174",
+    "date": "2025-10-21",
+    "category": "Ventas",
+    "amount": "3376.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 175,
+    "sourceId": "INV-2025-175",
+    "date": "2025-01-05",
+    "category": "Gastos",
+    "amount": "4128.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 176,
+    "sourceId": "INV-2025-176",
+    "date": "2025-08-09",
+    "category": "Inventario",
+    "amount": "929.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 177,
+    "sourceId": "INV-2025-177",
+    "date": "2025-03-23",
+    "category": "Ventas",
+    "amount": "3820.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 178,
+    "sourceId": "INV-2025-178",
+    "date": "2025-04-01",
+    "category": "Servicios",
+    "amount": "3915.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 179,
+    "sourceId": "INV-2025-179",
+    "date": "2025-11-04",
+    "category": "Gastos",
+    "amount": "3495.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 180,
+    "sourceId": "INV-2025-180",
+    "date": "2025-04-22",
+    "category": "Servicios",
+    "amount": "1905.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 181,
+    "sourceId": "INV-2025-181",
+    "date": "2025-02-22",
+    "category": "Inventario",
+    "amount": "4302.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 182,
+    "sourceId": "INV-2025-182",
+    "date": "2025-03-03",
+    "category": "Gastos",
+    "amount": "4480.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 183,
+    "sourceId": "INV-2025-183",
+    "date": "2025-04-14",
+    "category": "Servicios",
+    "amount": "3166.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 184,
+    "sourceId": "INV-2025-184",
+    "date": "2025-02-14",
+    "category": "Ventas",
+    "amount": "2172.00",
+    "status": "cancelado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 185,
+    "sourceId": "INV-2025-185",
+    "date": "2025-10-07",
+    "category": "Inventario",
+    "amount": "1746.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 186,
+    "sourceId": "INV-2025-186",
+    "date": "2025-04-27",
+    "category": "Gastos",
+    "amount": "4867.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 187,
+    "sourceId": "INV-2025-187",
+    "date": "2025-05-03",
+    "category": "Inventario",
+    "amount": "4902.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 188,
+    "sourceId": "INV-2025-188",
+    "date": "2025-08-16",
+    "category": "Gastos",
+    "amount": "4803.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 189,
+    "sourceId": "INV-2025-189",
+    "date": "2025-05-06",
+    "category": "Inventario",
+    "amount": "1679.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 190,
+    "sourceId": "INV-2025-190",
+    "date": "2025-09-14",
+    "category": "Servicios",
+    "amount": "1078.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 191,
+    "sourceId": "INV-2025-191",
+    "date": "2025-01-30",
+    "category": "Gastos",
+    "amount": "4236.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 192,
+    "sourceId": "INV-2025-192",
+    "date": "2025-02-06",
+    "category": "Inventario",
+    "amount": "3573.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 193,
+    "sourceId": "INV-2025-193",
+    "date": "2025-04-13",
+    "category": "Gastos",
+    "amount": "1214.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 194,
+    "sourceId": "INV-2025-194",
+    "date": "2025-04-26",
+    "category": "Servicios",
+    "amount": "1603.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 195,
+    "sourceId": "INV-2025-195",
+    "date": "2025-04-27",
+    "category": "Servicios",
+    "amount": "3901.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 196,
+    "sourceId": "INV-2025-196",
+    "date": "2025-03-09",
+    "category": "Inventario",
+    "amount": "4877.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 197,
+    "sourceId": "INV-2025-197",
+    "date": "2025-01-06",
+    "category": "Servicios",
+    "amount": "2093.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 198,
+    "sourceId": "INV-2025-198",
+    "date": "2025-08-01",
+    "category": "Ventas",
+    "amount": "3073.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 199,
+    "sourceId": "INV-2025-199",
+    "date": "2025-04-20",
+    "category": "Gastos",
+    "amount": "2139.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 200,
+    "sourceId": "INV-2025-200",
+    "date": "2025-10-17",
+    "category": "Servicios",
+    "amount": "3643.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 201,
+    "sourceId": "INV-2025-201",
+    "date": "2025-01-26",
+    "category": "Gastos",
+    "amount": "3944.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 202,
+    "sourceId": "INV-2025-202",
+    "date": "2025-05-26",
+    "category": "Servicios",
+    "amount": "3699.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 203,
+    "sourceId": "INV-2025-203",
+    "date": "2025-09-17",
+    "category": "Ventas",
+    "amount": "4588.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 204,
+    "sourceId": "INV-2025-204",
+    "date": "2025-02-28",
+    "category": "Servicios",
+    "amount": "483.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 205,
+    "sourceId": "INV-2025-205",
+    "date": "2025-10-25",
+    "category": "Inventario",
+    "amount": "1744.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 206,
+    "sourceId": "INV-2025-206",
+    "date": "2025-01-12",
+    "category": "Ventas",
+    "amount": "4854.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 207,
+    "sourceId": "INV-2025-207",
+    "date": "2025-08-30",
+    "category": "Ventas",
+    "amount": "4950.00",
+    "status": "cancelado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 208,
+    "sourceId": "INV-2025-208",
+    "date": "2025-06-22",
+    "category": "Gastos",
+    "amount": "804.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 209,
+    "sourceId": "INV-2025-209",
+    "date": "2025-06-04",
+    "category": "Inventario",
+    "amount": "805.00",
+    "status": "cancelado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 210,
+    "sourceId": "INV-2025-210",
+    "date": "2025-01-21",
+    "category": "Gastos",
+    "amount": "4216.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 211,
+    "sourceId": "INV-2025-211",
+    "date": "2025-10-01",
+    "category": "Ventas",
+    "amount": "4427.00",
+    "status": "completado",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 212,
+    "sourceId": "INV-2025-212",
+    "date": "2025-09-28",
+    "category": "Gastos",
+    "amount": "1536.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 213,
+    "sourceId": "INV-2025-213",
+    "date": "2025-05-08",
+    "category": "Servicios",
+    "amount": "3318.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 214,
+    "sourceId": "INV-2025-214",
+    "date": "2025-06-04",
+    "category": "Servicios",
+    "amount": "2843.00",
+    "status": "cancelado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 215,
+    "sourceId": "INV-2025-215",
+    "date": "2025-01-11",
+    "category": "Ventas",
+    "amount": "4045.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 216,
+    "sourceId": "INV-2025-216",
+    "date": "2025-01-18",
+    "category": "Inventario",
+    "amount": "4203.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 217,
+    "sourceId": "INV-2025-217",
+    "date": "2025-08-31",
+    "category": "Ventas",
+    "amount": "3858.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 218,
+    "sourceId": "INV-2025-218",
+    "date": "2025-05-13",
+    "category": "Ventas",
+    "amount": "2270.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 219,
+    "sourceId": "INV-2025-219",
+    "date": "2025-11-07",
+    "category": "Ventas",
+    "amount": "3539.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 220,
+    "sourceId": "INV-2025-220",
+    "date": "2025-03-06",
+    "category": "Inventario",
+    "amount": "4787.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 221,
+    "sourceId": "INV-2025-221",
+    "date": "2025-08-26",
+    "category": "Ventas",
+    "amount": "387.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 222,
+    "sourceId": "INV-2025-222",
+    "date": "2025-02-25",
+    "category": "Servicios",
+    "amount": "2289.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 223,
+    "sourceId": "INV-2025-223",
+    "date": "2025-01-25",
+    "category": "Gastos",
+    "amount": "4273.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 224,
+    "sourceId": "INV-2025-224",
+    "date": "2025-06-07",
+    "category": "Servicios",
+    "amount": "2799.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 225,
+    "sourceId": "INV-2025-225",
+    "date": "2025-01-21",
+    "category": "Servicios",
+    "amount": "1753.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 226,
+    "sourceId": "INV-2025-226",
+    "date": "2025-04-06",
+    "category": "Inventario",
+    "amount": "4598.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 227,
+    "sourceId": "INV-2025-227",
+    "date": "2025-09-26",
+    "category": "Servicios",
+    "amount": "400.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 228,
+    "sourceId": "INV-2025-228",
+    "date": "2025-08-09",
+    "category": "Servicios",
+    "amount": "1884.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 229,
+    "sourceId": "INV-2025-229",
+    "date": "2025-06-06",
+    "category": "Gastos",
+    "amount": "1459.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 230,
+    "sourceId": "INV-2025-230",
+    "date": "2025-02-20",
+    "category": "Gastos",
+    "amount": "2184.00",
+    "status": "activo",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 231,
+    "sourceId": "INV-2025-231",
+    "date": "2025-09-10",
+    "category": "Ventas",
+    "amount": "1728.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 232,
+    "sourceId": "INV-2025-232",
+    "date": "2025-02-08",
+    "category": "Inventario",
+    "amount": "4159.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 233,
+    "sourceId": "INV-2025-233",
+    "date": "2025-09-21",
+    "category": "Servicios",
+    "amount": "1489.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 234,
+    "sourceId": "INV-2025-234",
+    "date": "2025-08-24",
+    "category": "Gastos",
+    "amount": "199.00",
+    "status": "completado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 235,
+    "sourceId": "INV-2025-235",
+    "date": "2025-05-12",
+    "category": "Gastos",
+    "amount": "4523.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 236,
+    "sourceId": "INV-2025-236",
+    "date": "2025-07-20",
+    "category": "Ventas",
+    "amount": "648.00",
+    "status": "pendiente",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 237,
+    "sourceId": "INV-2025-237",
+    "date": "2025-11-11",
+    "category": "Inventario",
+    "amount": "3904.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 238,
+    "sourceId": "INV-2025-238",
+    "date": "2025-01-23",
+    "category": "Inventario",
+    "amount": "1040.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 239,
+    "sourceId": "INV-2025-239",
+    "date": "2025-11-09",
+    "category": "Servicios",
+    "amount": "3007.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 240,
+    "sourceId": "INV-2025-240",
+    "date": "2025-10-19",
+    "category": "Servicios",
+    "amount": "3089.00",
+    "status": "activo",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 241,
+    "sourceId": "INV-2025-241",
+    "date": "2025-03-20",
+    "category": "Gastos",
+    "amount": "3935.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 242,
+    "sourceId": "INV-2025-242",
+    "date": "2025-01-11",
+    "category": "Inventario",
+    "amount": "1202.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 243,
+    "sourceId": "INV-2025-243",
+    "date": "2025-10-01",
+    "category": "Inventario",
+    "amount": "2453.00",
+    "status": "activo",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 244,
+    "sourceId": "INV-2025-244",
+    "date": "2025-08-18",
+    "category": "Gastos",
+    "amount": "2462.00",
+    "status": "cancelado",
+    "description": "Pago de gasto operativo"
+  },
+  {
+    "id": 245,
+    "sourceId": "INV-2025-245",
+    "date": "2025-06-24",
+    "category": "Servicios",
+    "amount": "2364.00",
+    "status": "pendiente",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 246,
+    "sourceId": "INV-2025-246",
+    "date": "2025-10-12",
+    "category": "Inventario",
+    "amount": "3766.00",
+    "status": "completado",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 247,
+    "sourceId": "INV-2025-247",
+    "date": "2025-05-26",
+    "category": "Servicios",
+    "amount": "2268.00",
+    "status": "completado",
+    "description": "Prestación de servicio"
+  },
+  {
+    "id": 248,
+    "sourceId": "INV-2025-248",
+    "date": "2025-01-27",
+    "category": "Inventario",
+    "amount": "4481.00",
+    "status": "pendiente",
+    "description": "Compra de stock"
+  },
+  {
+    "id": 249,
+    "sourceId": "INV-2025-249",
+    "date": "2025-03-13",
+    "category": "Ventas",
+    "amount": "2051.00",
+    "status": "activo",
+    "description": "Venta de producto comercial"
+  },
+  {
+    "id": 250,
+    "sourceId": "INV-2025-250",
+    "date": "2025-02-10",
+    "category": "Gastos",
+    "amount": "2421.00",
+    "status": "pendiente",
+    "description": "Pago de gasto operativo"
+  }
+]
