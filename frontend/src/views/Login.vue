@@ -1,192 +1,168 @@
 <template>
-  <div class="login-wrapper">
-    <!-- Fondos decorativos con orbes de gradiente estilo SaaS moderno -->
-    <div class="glow-orb orb-1"></div>
-    <div class="glow-orb orb-2"></div>
-    <div class="glow-orb orb-3"></div>
+  <div class="login-page">
+    <!-- Efectos de iluminación ambiental sutiles -->
+    <div class="ambient-glow glow-top"></div>
+    <div class="ambient-glow glow-bottom"></div>
 
     <v-container class="fill-height py-8 px-4" fluid>
-      <v-row align="center" justify="center" class="w-100 mx-auto" style="max-width: 1180px;">
+      <div class="layout-container">
         
         <!-- ============================================== -->
-        <!-- COLUMNA IZQUIERDA: PRESENTACIÓN DE MARCA Y DEMO -->
+        <!-- COLUMNA IZQUIERDA: FICHA TÉCNICA / SPECS README -->
         <!-- ============================================== -->
-        <v-col cols="12" md="6" class="pr-md-6 mb-6 mb-md-0">
-          <div class="brand-hero">
-            <!-- Badge de estado -->
-            <div class="d-inline-flex align-center demo-badge mb-4">
-              <span class="pulse-dot mr-2"></span>
-              <span class="text-caption font-weight-bold text-uppercase tracking-wider">
-                Portfolio Showcase • Modo Demo Activo
-              </span>
+        <div class="specs-column">
+          <!-- Encabezado del proyecto -->
+          <div class="mb-5">
+            <div class="d-inline-flex align-center badge-mono mb-3">
+              <v-icon icon="mdi-code-braces" size="14" class="mr-1 text-cyan-400"></v-icon>
+              <span>CHALLENGE TÉCNICO • FULL STACK</span>
             </div>
 
-            <!-- Título y Logotipo -->
-            <div class="d-flex align-center mb-3">
-              <div class="brand-icon-box mr-3">
-                <v-icon icon="mdi-shield-crown-outline" color="white" size="28"></v-icon>
+            <div class="d-flex align-center mb-2">
+              <div class="brand-badge mr-3">
+                <v-icon icon="mdi-finance" color="white" size="24"></v-icon>
               </div>
               <div>
-                <h1 class="text-h3 font-weight-black brand-title">ZIZCAR</h1>
-                <p class="text-caption text-blue-grey-lighten-2 font-weight-medium">
-                  Financial Data Intelligence & Ingestion Hub
+                <h1 class="text-h4 font-weight-bold project-title">ZIZCAR</h1>
+                <p class="text-caption text-slate-400 font-weight-medium mb-0">
+                  Sistema de Gestión de Finanzas & BI
                 </p>
               </div>
             </div>
 
-            <p class="text-body-1 text-blue-grey-lighten-1 mb-6 brand-description">
-              Plataforma integral para ingesta automatizada de estados financieros vía PDF, 
-              conciliación contable con normalización Idempotente (Upsert) y analítica con Power BI.
+            <p class="text-body-2 text-slate-300 project-desc">
+              Solución integral para la ingesta y normalización de estados financieros a partir de archivos PDF, 
+              conciliación con persistencia idempotente (Upsert) y visualización en dashboard interactivo.
             </p>
+          </div>
 
-            <!-- ========================================== -->
-            <!-- TARJETA FLOTANTE DE ACCESO DE DEMOSTRACIÓN -->
-            <!-- ========================================== -->
-            <v-card class="demo-card glass-panel pa-5 mb-4" rounded="xl" elevation="0">
-              <div class="d-flex align-center justify-space-between mb-3">
-                <div class="d-flex align-center">
-                  <v-avatar color="indigo-darken-3" size="36" class="mr-3">
-                    <v-icon icon="mdi-lightning-bolt" color="cyan-accent-2" size="20"></v-icon>
-                  </v-avatar>
-                  <div>
-                    <h2 class="text-subtitle-1 font-weight-bold text-white mb-0">
-                      Acceso de Demostración
-                    </h2>
-                    <span class="text-caption text-blue-grey-lighten-2">
-                      Sin necesidad de base de datos local
-                    </span>
-                  </div>
-                </div>
+          <!-- Stack Tecnológico Categorizado -->
+          <div class="stack-card pa-4 mb-5 rounded-xl">
+            <h3 class="text-caption font-weight-bold text-slate-400 uppercase tracking-wider mb-3">
+              STACK TECNOLÓGICO
+            </h3>
 
-                <v-chip size="x-small" color="teal-accent-3" variant="tonal" class="font-weight-bold">
-                  INTERACTIVO
-                </v-chip>
+            <!-- Categoría: Frontend -->
+            <div class="stack-row mb-3">
+              <div class="category-label">
+                <v-icon icon="mdi-monitor-dashboard" size="14" class="mr-1 text-indigo-300"></v-icon>
+                <span>Frontend:</span>
               </div>
-
-              <p class="text-caption text-blue-grey-lighten-1 mb-3">
-                Explora el dashboard, filtros, tablas financieras y simulación de carga PDF con datos precargados reales:
-              </p>
-
-              <!-- Credenciales visibles en texto claro con botón interactivo -->
-              <div class="credential-box pa-3 mb-4 rounded-lg">
-                <div class="d-flex align-center justify-space-between mb-2">
-                  <div class="d-flex align-center text-truncate">
-                    <v-icon icon="mdi-account-circle-outline" size="16" color="cyan-lighten-3" class="mr-2"></v-icon>
-                    <span class="text-caption text-blue-grey-lighten-3 mr-2">Email:</span>
-                    <code class="cred-code">{{ demoCredentials.email }}</code>
-                  </div>
-                  <v-btn
-                    variant="text"
-                    size="x-small"
-                    color="cyan-accent-2"
-                    icon="mdi-content-copy"
-                    title="Copiar email"
-                    @click="copyToClipboard(demoCredentials.email, 'Email copiado')"
-                  ></v-btn>
-                </div>
-
-                <div class="d-flex align-center justify-space-between">
-                  <div class="d-flex align-center text-truncate">
-                    <v-icon icon="mdi-key-outline" size="16" color="indigo-lighten-3" class="mr-2"></v-icon>
-                    <span class="text-caption text-blue-grey-lighten-3 mr-2">Pass:</span>
-                    <code class="cred-code">{{ demoCredentials.password }}</code>
-                  </div>
-                  <v-btn
-                    variant="text"
-                    size="x-small"
-                    color="cyan-accent-2"
-                    icon="mdi-content-copy"
-                    title="Copiar contraseña"
-                    @click="copyToClipboard(demoCredentials.password, 'Contraseña copiada')"
-                  ></v-btn>
-                </div>
+              <div class="tags-group">
+                <span class="tech-tag">Vue 3</span>
+                <span class="tech-tag">Vuetify 3</span>
+                <span class="tech-tag">Pinia</span>
+                <span class="tech-tag">Axios</span>
               </div>
+            </div>
 
-              <!-- Botones de Acción Rápida -->
-              <div class="d-flex flex-column flex-sm-row gap-2">
-                <v-btn
-                  color="cyan-accent-3"
-                  class="text-indigo-darken-4 font-weight-black flex-grow-1 quick-btn"
-                  prepend-icon="mdi-lightning-bolt"
-                  rounded="lg"
-                  variant="flat"
-                  :loading="quickLoading"
-                  @click="handleQuickGuestLogin"
-                >
-                  Ingresar como Invitado (1 Clic)
-                </v-btn>
-
-                <v-btn
-                  variant="outlined"
-                  color="blue-grey-lighten-2"
-                  class="font-weight-bold autofill-btn"
-                  prepend-icon="mdi-form-textbox"
-                  rounded="lg"
-                  @click="handleAutofill"
-                >
-                  Autocompletar
-                </v-btn>
+            <!-- Categoría: Backend & API -->
+            <div class="stack-row mb-3">
+              <div class="category-label">
+                <v-icon icon="mdi-server" size="14" class="mr-1 text-cyan-300"></v-icon>
+                <span>Backend & API:</span>
               </div>
-            </v-card>
+              <div class="tags-group">
+                <span class="tech-tag">NestJS (Node)</span>
+                <span class="tech-tag">TypeORM</span>
+                <span class="tech-tag">JWT Passport</span>
+                <span class="tech-tag">PDF-Parse</span>
+              </div>
+            </div>
 
-            <!-- Tags tecnológicos -->
-            <div class="d-flex flex-wrap align-center mt-4 gap-1">
-              <span class="text-caption text-blue-grey-lighten-3 mr-2">Stack:</span>
-              <v-chip size="x-small" variant="outlined" color="blue-lighten-3" class="tech-chip">Vue 3</v-chip>
-              <v-chip size="x-small" variant="outlined" color="blue-lighten-3" class="tech-chip">Vuetify 3</v-chip>
-              <v-chip size="x-small" variant="outlined" color="blue-lighten-3" class="tech-chip">Pinia</v-chip>
-              <v-chip size="x-small" variant="outlined" color="blue-lighten-3" class="tech-chip">NestJS</v-chip>
-              <v-chip size="x-small" variant="outlined" color="blue-lighten-3" class="tech-chip">Power BI</v-chip>
+            <!-- Categoría: Base de Datos & BI -->
+            <div class="stack-row mb-3">
+              <div class="category-label">
+                <v-icon icon="mdi-database" size="14" class="mr-1 text-emerald-300"></v-icon>
+                <span>Datos & BI:</span>
+              </div>
+              <div class="tags-group">
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Power BI Desktop</span>
+              </div>
+            </div>
+
+            <!-- Arquitectura & Patrones -->
+            <div class="stack-row">
+              <div class="category-label">
+                <v-icon icon="mdi-cogs" size="14" class="mr-1 text-violet-300"></v-icon>
+                <span>Arquitectura:</span>
+              </div>
+              <div class="tags-group">
+                <span class="tech-tag">Regex Parser</span>
+                <span class="tech-tag">Upsert Idempotente</span>
+                <span class="tech-tag">Auditoría CSV/JSON</span>
+              </div>
             </div>
           </div>
-        </v-col>
+
+          <!-- Enlace a Documentación del Repositorio -->
+          <div class="d-flex align-center justify-space-between flex-wrap gap-2">
+            <a
+              href="https://github.com/kkkkfran/Practica-ZIZCAR"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="github-link-btn"
+            >
+              <v-icon icon="mdi-github" size="18" class="mr-2"></v-icon>
+              <span>Ver README y código en GitHub</span>
+              <v-icon icon="mdi-arrow-top-right" size="15" class="ml-1"></v-icon>
+            </a>
+
+            <span class="text-caption text-slate-500 font-mono">
+              Branch: main
+            </span>
+          </div>
+        </div>
 
         <!-- ============================================== -->
-        <!-- COLUMNA DERECHA: FORMULARIO GLASSMORPHISM     -->
+        <!-- COLUMNA DERECHA: FORMULARIO DE ACCESO DEMO     -->
         <!-- ============================================== -->
-        <v-col cols="12" md="6" lg="5">
-          <v-card class="login-card glass-panel pa-6 pa-sm-8" rounded="2xl" elevation="24">
+        <div class="form-column">
+          <div class="login-card pa-6 pa-sm-8 rounded-2xl">
             
-            <div class="text-center mb-6">
-              <h2 class="text-h5 font-weight-bold text-white mb-1">
-                Iniciar Sesión
-              </h2>
-              <p class="text-caption text-blue-grey-lighten-2">
-                Ingresa al panel de control financiero de ZIZCAR
+            <!-- Header del Formulario -->
+            <div class="mb-5">
+              <div class="d-flex align-center justify-space-between mb-2">
+                <h2 class="text-h5 font-weight-bold text-slate-100">
+                  Iniciar Sesión
+                </h2>
+                <div class="demo-live-badge">
+                  <span class="pulse-dot mr-1"></span>
+                  <span class="font-mono text-caption">MODO DEMO</span>
+                </div>
+              </div>
+              <p class="text-caption text-slate-400 mb-0">
+                Credenciales de prueba cargadas para ingresar directamente.
               </p>
             </div>
 
-            <!-- Feedback de autocompletado -->
-            <v-slide-y-transition>
-              <v-alert
-                v-if="feedbackMsg"
-                type="success"
-                variant="tonal"
-                density="compact"
-                rounded="lg"
-                class="mb-4"
-                closable
-                @click:close="feedbackMsg = ''"
-              >
-                {{ feedbackMsg }}
-              </v-alert>
-            </v-slide-y-transition>
+            <!-- Banner informativo sutil de credenciales precargadas -->
+            <div class="demo-info-banner pa-3 mb-5 rounded-lg">
+              <div class="d-flex align-center">
+                <v-icon icon="mdi-shield-check-outline" size="18" class="mr-2 text-cyan-300"></v-icon>
+                <div class="text-caption text-slate-300">
+                  Entorno Portfolio: Pulsa <strong>Acceder a la plataforma</strong> para explorar la app en vivo.
+                </div>
+              </div>
+            </div>
 
+            <!-- Formulario -->
             <v-form @submit.prevent="handleLogin" ref="loginForm">
-              <!-- Campo Email -->
-              <div class="input-group mb-4">
-                <label class="input-label text-caption font-weight-bold text-blue-grey-lighten-2 mb-1 d-block">
+              
+              <!-- Input: Email -->
+              <div class="input-block mb-4">
+                <label class="field-label text-slate-300 mb-1 d-block">
                   CORREO ELECTRÓNICO
                 </label>
                 <v-text-field
                   v-model="email"
-                  placeholder="ej: demo@zizcar.com"
                   prepend-inner-icon="mdi-email-outline"
                   variant="outlined"
                   density="comfortable"
                   rounded="lg"
-                  color="cyan-accent-2"
-                  base-color="blue-grey-darken-1"
+                  color="primary"
+                  base-color="rgba(148, 163, 184, 0.4)"
                   bg-color="rgba(15, 23, 42, 0.6)"
                   :rules="[rules.required, rules.email]"
                   hide-details="auto"
@@ -194,23 +170,18 @@
                 ></v-text-field>
               </div>
 
-              <!-- Campo Password -->
-              <div class="input-group mb-5">
+              <!-- Input: Contraseña -->
+              <div class="input-block mb-5">
                 <div class="d-flex justify-space-between align-center mb-1">
-                  <label class="input-label text-caption font-weight-bold text-blue-grey-lighten-2">
+                  <label class="field-label text-slate-300">
                     CONTRASEÑA
                   </label>
-                  <a
-                    href="#"
-                    class="text-caption text-cyan-accent-2 text-decoration-none"
-                    @click.prevent="handleAutofill"
-                  >
-                    ¿Usar credencial demo?
-                  </a>
+                  <span class="text-caption text-cyan-400 font-mono" style="font-size: 0.72rem !important;">
+                    demo1234
+                  </span>
                 </div>
                 <v-text-field
                   v-model="password"
-                  placeholder="••••••••"
                   prepend-inner-icon="mdi-lock-outline"
                   :append-inner-icon="showPassword ? 'mdi-eye-off-outline' : 'mdi-eye-outline'"
                   :type="showPassword ? 'text' : 'password'"
@@ -218,8 +189,8 @@
                   variant="outlined"
                   density="comfortable"
                   rounded="lg"
-                  color="cyan-accent-2"
-                  base-color="blue-grey-darken-1"
+                  color="primary"
+                  base-color="rgba(148, 163, 184, 0.4)"
                   bg-color="rgba(15, 23, 42, 0.6)"
                   :rules="[rules.required]"
                   hide-details="auto"
@@ -227,7 +198,7 @@
                 ></v-text-field>
               </div>
 
-              <!-- Alerta de Error -->
+              <!-- Mensaje de Error si las credenciales fallan -->
               <v-slide-y-transition>
                 <v-alert
                   v-if="error"
@@ -235,82 +206,52 @@
                   variant="tonal"
                   density="compact"
                   rounded="lg"
-                  class="mb-4"
+                  class="mb-4 text-caption"
                   closable
                   @click:close="error = ''"
                 >
-                  <div class="d-flex align-center justify-space-between">
-                    <span>{{ error }}</span>
-                    <v-btn
-                      size="x-small"
-                      variant="text"
-                      color="white"
-                      class="text-decoration-underline"
-                      @click="handleAutofill"
-                    >
-                      Autocompletar Demo
-                    </v-btn>
-                  </div>
+                  {{ error }}
                 </v-alert>
               </v-slide-y-transition>
 
-              <!-- Botón Principal de Envío -->
+              <!-- Botón Principal: Acceder a la plataforma -->
               <v-btn
                 type="submit"
                 block
                 size="large"
-                rounded="lg"
-                class="login-submit-btn font-weight-black text-white mb-4"
+                class="btn-primary-action font-weight-bold text-white mb-3"
                 :loading="loading"
-                elevation="6"
+                elevation="0"
               >
-                <span>Acceder a la Plataforma</span>
+                <span>Acceder a la plataforma</span>
                 <v-icon icon="mdi-arrow-right" end class="ml-2"></v-icon>
+              </v-btn>
+
+              <!-- Botón Secundario: Entrada Rápida 1 Clic -->
+              <v-btn
+                block
+                variant="outlined"
+                class="btn-secondary-action font-weight-medium text-slate-300"
+                :loading="quickLoading"
+                @click="handleQuickGuestLogin"
+              >
+                <v-icon icon="mdi-flash" start size="16" class="text-cyan-400"></v-icon>
+                <span>Acceso Rápido Demo (1 Clic)</span>
               </v-btn>
             </v-form>
 
-            <v-divider class="border-opacity-25 my-4" color="blue-grey-lighten-2">
-              <span class="text-caption text-blue-grey-lighten-3 px-2">o bien</span>
-            </v-divider>
-
-            <!-- Acceso Directo Secundario -->
-            <v-btn
-              block
-              variant="tonal"
-              color="indigo-lighten-3"
-              rounded="lg"
-              class="font-weight-bold guest-btn"
-              prepend-icon="mdi-account-check-outline"
-              :loading="quickLoading"
-              @click="handleQuickGuestLogin"
-            >
-              Explorar sin credenciales (Modo Invitado)
-            </v-btn>
-
-            <div class="text-center mt-6">
-              <p class="text-caption text-blue-grey-lighten-3 mb-0">
-                Desafío Técnico Full Stack • <strong>Francisco Jara</strong>
-              </p>
+            <!-- Pie de página integrado en la tarjeta -->
+            <div class="text-center mt-6 pt-4 border-top-subtle">
+              <span class="text-caption text-slate-400">
+                Autor: <strong class="text-slate-200">Francisco Javier Cartes Jara</strong>
+              </span>
             </div>
-          </v-card>
-        </v-col>
 
-      </v-row>
-    </v-container>
+          </div>
+        </div>
 
-    <!-- Snackbar para avisos rápidos -->
-    <v-snackbar
-      v-model="snackbar"
-      :timeout="2200"
-      color="indigo-darken-3"
-      rounded="lg"
-      location="bottom right"
-    >
-      <div class="d-flex align-center">
-        <v-icon icon="mdi-check-circle-outline" color="cyan-accent-2" class="mr-2"></v-icon>
-        <span class="text-body-2 font-weight-medium text-white">{{ snackbarText }}</span>
       </div>
-    </v-snackbar>
+    </v-container>
   </div>
 </template>
 
@@ -322,68 +263,37 @@ import { useAuthStore, DEMO_CREDENTIALS } from '../stores/auth';
 const authStore = useAuthStore();
 const router = useRouter();
 
-// Credenciales demo por defecto
-const demoCredentials = DEMO_CREDENTIALS[0];
+const demoAccount = DEMO_CREDENTIALS[0];
 
-// Estado de inputs (pre-llenados con la cuenta demo recomendada para la mejor UX)
-const email = ref(demoCredentials.email);
-const password = ref(demoCredentials.password);
+// Campos prellenados con las credenciales demo para uso inmediato
+const email = ref(demoAccount.email);
+const password = ref(demoAccount.password);
 
-// Controles de interfaz
 const showPassword = ref(false);
 const loading = ref(false);
 const quickLoading = ref(false);
 const error = ref('');
-const feedbackMsg = ref('');
-const snackbar = ref(false);
-const snackbarText = ref('');
 
-// Reglas de validación
 const rules = {
-  required: (v: string) => !!v || 'Este campo es obligatorio',
+  required: (v: string) => !!v || 'Campo requerido',
   email: (v: string) => /.+@.+\..+/.test(v) || 'Introduce un email válido',
 };
 
-// Autocompletar formulario
-const handleAutofill = () => {
-  email.value = demoCredentials.email;
-  password.value = demoCredentials.password;
-  error.value = '';
-  feedbackMsg.value = '✓ Credenciales demo aplicadas en el formulario.';
-  triggerSnackbar('Credenciales autocompletadas');
-};
-
-// Copiar al portapapeles
-const copyToClipboard = async (text: string, msg: string) => {
-  try {
-    await navigator.clipboard.writeText(text);
-    triggerSnackbar(msg);
-  } catch {
-    triggerSnackbar(`Copiado: ${text}`);
-  }
-};
-
-const triggerSnackbar = (msg: string) => {
-  snackbarText.value = msg;
-  snackbar.value = true;
-};
-
-// Inicio de sesión normal / formulario
+// Envío del formulario
 const handleLogin = async () => {
   if (!email.value || !password.value) {
-    error.value = 'Por favor completa todos los campos';
+    error.value = 'Por favor completa los campos';
     return;
   }
 
   loading.value = true;
   error.value = '';
-  feedbackMsg.value = '';
 
   try {
     await authStore.login(email.value, password.value);
     router.push('/records');
   } catch (e: any) {
-    error.value = 'Credenciales no reconocidas. Usa las credenciales del panel demo.';
+    error.value = 'Credenciales no válidas. Prueba con demo@zizcar.com / demo1234';
   } finally {
     loading.value = false;
   }
@@ -393,13 +303,12 @@ const handleLogin = async () => {
 const handleQuickGuestLogin = async () => {
   quickLoading.value = true;
   error.value = '';
-  feedbackMsg.value = '';
 
   try {
     await authStore.loginAsDemo(0);
     router.push('/records');
   } catch (e) {
-    error.value = 'No se pudo iniciar el modo demostración';
+    error.value = 'Error al iniciar sesión de prueba';
   } finally {
     quickLoading.value = false;
   }
@@ -408,210 +317,275 @@ const handleQuickGuestLogin = async () => {
 
 <style scoped>
 /* Contenedor general en pantalla completa */
-.login-wrapper {
+.login-page {
   position: relative;
   min-height: 100vh;
   width: 100%;
-  background: radial-gradient(circle at 15% 20%, #111a36 0%, #080c16 60%, #03060d 100%);
-  overflow-x: hidden;
-  display: flex;
-  align-items: center;
-}
-
-/* Orbes de luz de fondo con blur pronunciado */
-.glow-orb {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(100px);
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.55;
-  animation: floatOrb 14s ease-in-out infinite alternate;
-}
-
-.orb-1 {
-  top: -80px;
-  left: 5%;
-  width: 420px;
-  height: 420px;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.45) 0%, rgba(99, 102, 241, 0.2) 70%, transparent 100%);
-}
-
-.orb-2 {
-  bottom: -100px;
-  right: 5%;
-  width: 480px;
-  height: 480px;
-  background: radial-gradient(circle, rgba(6, 182, 212, 0.35) 0%, rgba(79, 70, 229, 0.25) 70%, transparent 100%);
-  animation-duration: 18s;
-}
-
-.orb-3 {
-  top: 40%;
-  left: 45%;
-  width: 320px;
-  height: 320px;
-  background: radial-gradient(circle, rgba(147, 51, 234, 0.2) 0%, transparent 70%);
-  animation-duration: 22s;
-}
-
-@keyframes floatOrb {
-  0% {
-    transform: translateY(0) scale(1);
-  }
-  100% {
-    transform: translateY(-30px) scale(1.08);
-  }
-}
-
-/* Efecto Glassmorphism */
-.glass-panel {
-  background: rgba(15, 23, 42, 0.72) !important;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
-}
-
-/* Hero Branding */
-.brand-hero {
-  position: relative;
-  z-index: 1;
-}
-
-.brand-icon-box {
-  width: 50px;
-  height: 50px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
+  background-color: #0b0f19;
+  background-image: 
+    radial-gradient(at 10% 15%, rgba(30, 58, 138, 0.28) 0px, transparent 55%),
+    radial-gradient(at 90% 85%, rgba(14, 116, 144, 0.22) 0px, transparent 55%);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 10px 25px -5px rgba(6, 182, 212, 0.4);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
 }
 
-.brand-title {
-  letter-spacing: -0.04em;
-  background: linear-gradient(135deg, #ffffff 40%, #a5b4fc 80%, #38bdf8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.brand-description {
-  line-height: 1.6;
-  max-width: 520px;
-}
-
-/* Badge con pulso de estado */
-.demo-badge {
-  background: rgba(16, 185, 129, 0.12);
-  border: 1px solid rgba(52, 211, 153, 0.3);
-  padding: 5px 12px;
-  border-radius: 9999px;
-  color: #34d399;
-}
-
-.pulse-dot {
-  width: 8px;
-  height: 8px;
-  background-color: #34d399;
+/* Luces ambientales difuminadas */
+.ambient-glow {
+  position: absolute;
   border-radius: 50%;
-  box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7);
-  animation: pulseAnimation 2s infinite;
+  pointer-events: none;
+  filter: blur(120px);
+  z-index: 0;
 }
 
-@keyframes pulseAnimation {
-  0% {
-    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7);
-  }
-  70% {
-    box-shadow: 0 0 0 8px rgba(52, 211, 153, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0);
-  }
+.glow-top {
+  top: -120px;
+  left: 15%;
+  width: 380px;
+  height: 380px;
+  background: rgba(59, 130, 246, 0.22);
 }
 
-/* Tarjeta flotante de Demo */
-.demo-card {
-  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(79, 70, 229, 0.15) !important;
-  transition: transform 0.25s ease, border-color 0.25s ease;
+.glow-bottom {
+  bottom: -120px;
+  right: 15%;
+  width: 420px;
+  height: 420px;
+  background: rgba(6, 182, 212, 0.18);
 }
 
-.demo-card:hover {
-  transform: translateY(-2px);
-  border-color: rgba(99, 102, 241, 0.3) !important;
-}
-
-.credential-box {
-  background: rgba(2, 6, 23, 0.6);
-  border: 1px dashed rgba(148, 163, 184, 0.25);
-}
-
-.cred-code {
-  background: rgba(30, 41, 59, 0.8);
-  color: #38bdf8;
-  padding: 2px 7px;
-  border-radius: 5px;
-  font-family: monospace;
-  font-size: 0.82rem;
-}
-
-.quick-btn {
-  letter-spacing: 0.02em;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 8px 20px -4px rgba(6, 182, 212, 0.45);
-}
-
-.quick-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 25px -4px rgba(6, 182, 212, 0.6);
-}
-
-.autofill-btn:hover {
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.tech-chip {
-  background: rgba(15, 23, 42, 0.8) !important;
-  border-color: rgba(148, 163, 184, 0.2) !important;
-}
-
-/* Tarjeta de Formulario */
-.login-card {
+/* Layout equilibrado de dos columnas */
+.layout-container {
   position: relative;
   z-index: 1;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7), 0 0 35px rgba(59, 130, 246, 0.12) !important;
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: center;
 }
 
-/* Botón de Submit */
-.login-submit-btn {
-  background: linear-gradient(135deg, #4f46e5 0%, #2563eb 50%, #0284c7 100%) !important;
-  letter-spacing: 0.03em;
-  transition: all 0.25s ease;
-  box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.45);
+@media (min-width: 960px) {
+  .layout-container {
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 48px;
+  }
 }
 
-.login-submit-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 15px 30px -5px rgba(37, 99, 235, 0.6);
+/* Columna Izquierda: Specs */
+.specs-column {
+  color: #f1f5f9;
 }
 
-.guest-btn {
-  background: rgba(99, 102, 241, 0.1) !important;
-  border: 1px solid rgba(129, 140, 248, 0.25);
-  transition: all 0.2s ease;
+.badge-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  background: rgba(6, 182, 212, 0.1);
+  border: 1px solid rgba(6, 182, 212, 0.25);
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: #38bdf8;
 }
 
-.guest-btn:hover {
-  background: rgba(99, 102, 241, 0.2) !important;
-  transform: translateY(-1px);
+.brand-badge {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px -4px rgba(37, 99, 235, 0.4);
 }
 
-.gap-1 {
+.project-title {
+  letter-spacing: -0.03em;
+  color: #f8fafc;
+  line-height: 1.1;
+}
+
+.project-desc {
+  line-height: 1.6;
+  color: #94a3b8;
+  max-width: 480px;
+}
+
+/* Tarjeta de Stack Tecnológico */
+.stack-card {
+  background: rgba(17, 24, 39, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.stack-row {
+  display: flex;
+  flex-direction: column;
   gap: 6px;
 }
 
-.gap-2 {
-  gap: 10px;
+@media (min-width: 600px) {
+  .stack-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
 }
+
+.category-label {
+  display: flex;
+  align-items: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #94a3b8;
+  min-width: 110px;
+}
+
+.tags-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tech-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  background: rgba(30, 41, 59, 0.75);
+  color: #e2e8f0;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  padding: 2px 8px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.tech-tag:hover {
+  border-color: rgba(56, 189, 248, 0.4);
+  color: #38bdf8;
+}
+
+/* Enlace a GitHub */
+.github-link-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 8px;
+  color: #cbd5e1;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.github-link-btn:hover {
+  background: rgba(30, 41, 59, 0.9);
+  border-color: rgba(56, 189, 248, 0.4);
+  color: #f8fafc;
+  transform: translateY(-1px);
+}
+
+/* Columna Derecha: Tarjeta de Login */
+.login-card {
+  background: rgba(17, 24, 39, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.demo-live-badge {
+  display: flex;
+  align-items: center;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 3px 8px;
+  border-radius: 6px;
+  color: #34d399;
+  font-size: 0.72rem;
+}
+
+.pulse-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #34d399;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7);
+  animation: pulseDot 2s infinite;
+}
+
+@keyframes pulseDot {
+  0% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7); }
+  70% { box-shadow: 0 0 0 6px rgba(52, 211, 153, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
+}
+
+.demo-info-banner {
+  background: rgba(6, 182, 212, 0.08);
+  border: 1px solid rgba(6, 182, 212, 0.2);
+}
+
+.field-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* Botón Principal */
+.btn-primary-action {
+  height: 48px !important;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+  border-radius: 10px !important;
+  font-size: 0.92rem !important;
+  letter-spacing: 0.01em;
+  transition: all 0.2s ease;
+  box-shadow: 0 6px 16px -2px rgba(37, 99, 235, 0.45) !important;
+}
+
+.btn-primary-action:hover {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px -2px rgba(37, 99, 235, 0.6) !important;
+}
+
+/* Botón Secundario */
+.btn-secondary-action {
+  height: 44px !important;
+  border-radius: 10px !important;
+  border-color: rgba(148, 163, 184, 0.25) !important;
+  font-size: 0.85rem !important;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary-action:hover {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-color: rgba(148, 163, 184, 0.4) !important;
+}
+
+.border-top-subtle {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Tipografía Mono */
+.font-mono {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* Utility colors */
+.text-slate-100 { color: #f1f5f9; }
+.text-slate-200 { color: #e2e8f0; }
+.text-slate-300 { color: #cbd5e1; }
+.text-slate-400 { color: #94a3b8; }
+.text-slate-500 { color: #64748b; }
+.text-cyan-300 { color: #67e8f9; }
+.text-cyan-400 { color: #22d3ee; }
+.text-indigo-300 { color: #a5b4fc; }
+.text-emerald-300 { color: #6ee7b7; }
+.text-violet-300 { color: #c4b5fd; }
 </style>
